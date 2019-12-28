@@ -1,5 +1,6 @@
 This is a starter project to build the C++ source to Web Assembly (WASM) with the Emscripten tool chain.
 Actually we can build C++ files to WASM with Emscripten only.
+
 emcc -o build\main.js file1.cpp file2.cpp
 
 But managing the large project will be difficult. For a large project CMake build system helps a lot. This starter project uses the emscripten on top of the CMake project. It also allows us to build existing CMake projects with much changes.
